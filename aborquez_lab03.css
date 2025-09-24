@@ -1,0 +1,73 @@
+body{
+    background-color:bisque;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-header {
+    text-align: center;
+    background-color: #7c7c7c;
+    color:white;
+    padding: 5px;
+    font-family: cursive;
+    margin: 20px;
+    clear: both;
+}
+
+#main-nav {
+    background-color: blue;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 5px;
+    
+    
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+#main-nav li:hover{
+    background-color:red;
+
+}
+
+.content-box {
+ background-color: rgb(57, 169, 100);
+ color: black;
+ border: 2px solid black;
+ margin: 5px;
+ padding: 5px;
+ border-radius: 20px;
+
+}
+
+.content-area {
+    width: 70%;
+    float: left;
+}
+
+#Rules {
+    text-align: left;
+    background-color: rgb(0, 204, 255);
+    width: 25%;
+    float: right;
+    border: 2px, solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 20px;
+}
+#Rules:hover {
+    background-color: red;
+}
+
+input[type="text"]:focus {
+  padding-left: 200px;
+}
